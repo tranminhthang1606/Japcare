@@ -1,0 +1,40 @@
+/* ==============
+  Form-Validation
+===================*/
+p{ margin-bottom: 5px}
+.error {
+    color: #ea553d !important;
+}
+.parsley-error {
+    border-color: #ea553d !important;
+}
+.parsley-errors-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.parsley-errors-list.filled {
+    display: block;
+}
+.parsley-errors-list > li {
+    font-size: 12px;
+    list-style: none;
+    color: #ea553d;
+    margin-top: 5px;
+}
+.form-group {
+    margin-bottom: 16px;
+}
+.form-group .pass_show{
+    position: relative;
+}
+.form-group small{
+    font-style: italic; font-size: 12px;
+    color: #797979;
+}
+#main-wrap > .banner{
+    padding: 10px 0 15px;
+}
+.content_custom-desc{
+    margin-bottom: 0;
+}
